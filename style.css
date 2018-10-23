@@ -1,0 +1,61 @@
+
+*{ 
+    margin: 0;
+    padding: 0
+}
+.container{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+#con {
+    position: relative;
+    margin-top: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+#con2 {
+    position: relative;
+    animation: can 2s infinite;
+    margin-top: 20px;
+    display: block;
+    overflow: hidden;
+    animation: can 2s infinite;
+}
+@keyframes can {
+    0% {
+        left: 0
+    }
+
+    50% {
+        left: 10%;
+   
+    }
+
+    100% {
+        left: 0%;
+    }
+} 
+.circle {
+	border-radius: 50%;
+	width: 20px;
+    height: 20px; 
+    position: absolute;
+    background-color: black;
+   
+}
+
+.bullet {
+    border-radius: 50%;
+	width: 10px;
+    height: 10px; 
+    position: absolute;
+    background-color: black;
+    -webkit-transition: all 2s; /* For Safari 3.1 to 6.0 */
+    transition: all 2s;
+  
+}
