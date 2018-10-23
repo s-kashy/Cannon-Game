@@ -17,6 +17,11 @@
     display: block;
     overflow: hidden;
 }
+p{
+    text-align: center;
+    margin:10px auto;
+    margin-bottom: 10px;
+}
 
 #con2 {
     position: relative;
